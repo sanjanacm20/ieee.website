@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjana | My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111c35;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 75px 10%;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: 10px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            max-width: 600px;
+            color: #cbd5e1;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #38bdf8;
+            color: #0f172a;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h2.section-title {
+            color: #38bdf8;
+            font-size: 2rem;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 14px;
+            margin-bottom: 20px;
+            border: 1px solid #334155;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #1e293b;
+            color: #7dd3fc;
+            border: 1px solid #334155;
+            padding: 10px 18px;
+            border-radius: 25px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111c35;
+            color: #cbd5e1;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 12px 0 0;
+            }
+
+            section {
+                padding: 55px 7%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Sanjana.</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Hi, I'm <span>Sanjana</span></h1>
+        <h2>College Student | Future Professional</h2>
+        <p>
+            Welcome to my personal portfolio! I'm a student at
+            KPR Institute of Engineering and Technology (KPRIET),
+            passionate about learning, creativity, and building my future.
+        </p>
+        <a href="#about" class="btn">Discover More</a>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="card">
+            <p>
+                Hello! I'm Sanjana, a college student at KPRIET.
+                I enjoy learning new things, exploring technology,
+                improving my skills, and taking on new challenges.
+                I believe in continuous learning, teamwork, and
+                working hard to achieve my goals.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="card">
+            <h3>KPR Institute of Engineering and Technology</h3>
+            <p>College Student</p>
+            <p>Learning, growing, and developing skills for the future.</p>
+            <p>Department: [Your Department]</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills">
+            <span class="skill">Communication</span>
+            <span class="skill">Teamwork</span>
+            <span class="skill">Creativity</span>
+            <span class="skill">Problem Solving</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="card">
+            <p>I'd love to connect and learn from new opportunities!</p>
+            <p>Email: [Your Email Address]</p>
+            <p>GitHub: <a href="https://github.com/"
+                style="color:#38bdf8;">Visit GitHub</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Sanjana | My Personal Portfolio</p>
+        <p>Designed with ❤️ by Sanjana</p>
+    </footer>
+
+</body>
+</html>
